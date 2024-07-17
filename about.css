@@ -1,0 +1,29 @@
+{
+    margin: 0px;
+}
+
+body{
+    background-image: url('../images/images2.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.p1{
+    padding:20px;
+    background-color:palevioletred;
+    color:aliceblue;
+    font-size: 25px;
+    text-indent: 100px;
+    font-family: Arial;
+    text-align:justify;
+}
+.imgfr{
+    float: right;
+    border: solid;
+    margin: 20px;
+}
+.mytitle{
+    color: aqua;
+    background-color: chartreuse;
+    padding: 0px;
+    text-align: left;
+}

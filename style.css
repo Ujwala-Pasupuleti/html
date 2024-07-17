@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    /*padding: 0px;*/
+}
+
+.main{
+    height:100vh;
+    background-color:blueviolet;
+}
+.head{
+    background-color:burlywood;
+    height:10vh;
+    padding-top: 5vh;
+}
+.head ul a{
+    color:black;
+    text-decoration:none;
+}
+.navbar-nav{
+    padding-top: 10px;
+    color:antiquewhite;
+    list-style: none;/* to avoid bullets*/
+   /* background-color: aqua;*/
+    
+}
+.navbar-nav li{
+    display: inline;/* changing of block level elements into inline elements*/
+    /background-color: blueviolet;/
+    margin-right: 0px;
+    font-size: 40px;
+    margin-left: 120px;
+}
+.content{
+    height: 70vh;
+    background-color:burlywood;
+}
+.content iframe{
+    width:100%;
+    height: 100%;
+}
+.footer{
+    height:15vh;
+    background-color:burlywood;
+}
