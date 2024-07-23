@@ -1,0 +1,61 @@
+<!DOCTYPE html>  
+<head>  
+<title> Registration Page </title>
+<style>
+    Body {  
+        font-family: Calibri, Helvetica, sans-serif;  
+        background-color:brown;
+        color:black;
+      }  
+    button {   
+             background-color:burlywood;  
+              width: 100%;  
+              color:brown;
+              font-size: medium;   
+              padding: 15px;   
+              margin: 10px 0px;   
+              border: 2px solid black;   
+              cursor: pointer;
+          }   
+    form {   
+              border: 3px solid #f1f1f1;   
+          }   
+    input[type=text], input[type=password] {   
+              width: 100%;   
+              margin: 8px 0;  
+              padding: 12px 20px;   
+              display:inline-block;  
+              border: 2px solid black;   
+              box-sizing: border-box;   
+          }    
+    .cancelbtn {   
+              width: auto;   
+              padding: 10px 18px;  
+              margin: 10px 5px;  
+          }
+    .container {   
+              padding: 25px;   
+              background-color:bisque;  
+          }
+</style>   
+</head>    
+<body>    
+    <center> <h1> STUDENT REGISTRATION FORM </h1> </center>   
+    <form>  
+        <div class="container">   
+            <label>Username : </label>   
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <label>E-Mail : </label>   
+            <input type="text" placeholder="Enter E-Mail" name="e-mail" required>
+            <label>Phone Number : </label>   
+            <input type="number" placeholder="Enter Phone Number" name="phonenumber" required>  
+            <label>Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required>  
+            <button type="submit">Sign-In</button>   
+            <input type="checkbox" checked="checked"> Remember me   
+            <button type="button" class="cancelbtn"> Cancel</button>   
+            Already a user?<a href="#">Login</a>   
+        </div>   
+    </form>     
+</body>     
+</html> 
